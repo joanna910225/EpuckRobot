@@ -1,0 +1,21 @@
+
+namespace IPC{
+  
+  enum IPC_msg_type
+    {
+      IRDATA = 0X1,
+      IRFILTEREDDATA = 0X2,
+      ACCDATA = 0X3,
+      MICDATA = 0X4,
+      BATTERYDATA = 0X5,
+      CAMRESOLUTIONDATA = 0X6,
+      BLOBCENTERDATA = 0X7,
+      ROBOTPOSITION = 0X8,
+      CURRENTACTIONRUNNING = 0X9,
+      FOODCOLLECTED = 0X10,
+      AMOUNTOFFOODATNEST = 0X11,
+      CURRENTTHETA = 0X12,
+      NVALUE = 0X13,
+    };
+}
+
